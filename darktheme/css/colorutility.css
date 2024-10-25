@@ -1,0 +1,107 @@
+.blue {
+    color: rgb(38, 40, 168);
+}
+
+.pink {
+    color: rgb(168, 38, 114);
+}
+
+.cian {
+    color: rgb(6, 92, 88);
+}
+
+.orange {
+    color: orangered;
+}
+
+.grey {
+    color: grey;
+}
+
+.flex {
+    display: flex;
+}
+
+.github a img:hover {
+    filter: invert(1);
+    /* transition-duration: 380ms; */
+    transition: filter 600ms ease-in-out;
+    /* transition: filter 800ms ease-out; */
+    /* color: rgb(162, 250, 0); */
+}
+
+.github a img{
+    filter: invert(0.5);
+    /* transition-duration: 180ms; */
+}
+
+.deployed a img:hover {
+    filter: invert(1);
+    /* transition-duration: 380ms; */
+    transition: filter 600ms ease-in-out;
+    /* transition: filter 800ms ease-out; */
+    /* color: rgb(162, 250, 0); */
+}
+
+.deployed a img{
+    filter: invert(0.5);
+    /* transition-duration: 180ms; */
+}
+
+.github {
+    justify-content: center;
+    margin: 15px 50px;
+    display: flex;
+    /* align-items: center; */
+    /* background-color: blue; */
+    /* justify-content: space-evenly; */
+    gap: 35px;
+}
+
+.green {
+    color: green;
+}
+
+hr.secdivider {
+    margin: 1px 64px;
+    color: rgb(248, 139, 248);
+    background-color: rgb(228, 152, 228);
+    height: 1.5px;
+    border: 1px solid rgb(228, 151, 228);
+    border-radius: 1000px;
+}
+
+.subheading {
+    margin: 20px 100px;
+    font-size: 13px;
+    color: rgb(123, 51, 141);
+}
+
+.secstart {
+    padding: 5px 94px;
+    /* color: rgb(77, 2, 77); */
+}
+
+.horizontal {
+    background-color: rgb(81, 13, 126);
+    width: 80vw;
+    height: 1px;
+    margin: 55px 0px;
+    display: flex;
+}
+
+.vertical {
+    height: 85px;
+    width: 1px;
+    margin: 0 80px;
+    background-color: rgb(81, 13, 126);
+}
+
+.subsecdiv {
+    margin: 2px 100px;
+    border: 1px solid rgb(128, 0, 32);
+    border-radius: 100px;
+    background-color: rgb(128, 0, 32);
+    opacity: 0.5;
+    margin-right: 100px;
+}
