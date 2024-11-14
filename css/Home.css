@@ -52,6 +52,7 @@ body {
 .navlinks ul li a {
     text-decoration: none;
     color: rgb(52, 8, 65);
+    transition: all 0.1s ease;
     /* font-size: 10px; */
     font-size: 20px;
     font-weight: bold;
